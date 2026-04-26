@@ -1,39 +1,39 @@
 # 🔐 Windows Log Analysis - Failed Login Detection
 
-## 📌 Sobre o projeto
-Projeto simples de análise de logs de segurança do Windows, focado na identificação de tentativas de login falho.
+## 📌 About the Project
+Simple project focused on analyzing Windows security logs, specifically identifying failed login attempts.
 
-## 🎯 Objetivo
-Demonstrar habilidades básicas de:
-- Análise de logs
-- Segurança de sistemas
-- Identificação de comportamento suspeito
+## 🎯 Objective
+Demonstrate basic skills in:
+- Log analysis  
+- System security  
+- Suspicious behavior identification  
 
-## 🧰 Tecnologias
-- PowerShell
-- Windows Event Logs
+## 🧰 Technologies
+- PowerShell  
+- Windows Event Logs  
 
-## 🔍 Funcionamento
-O script coleta eventos de segurança (ID 4625) e exibe informações relevantes para análise.
+## 🔍 How It Works
+The script collects security events (ID 4625) and displays relevant information for analysis.
 
-## 🚨 Possível ameaça detectada
-Múltiplas falhas de login podem indicar:
-- ataque de força bruta
-- tentativa de acesso não autorizado
+## 🚨 Potential Threat Detected
+Multiple failed login attempts may indicate:
+- Brute force attack  
+- Unauthorized access attempt  
 
-## 📸 Demonstração
+## 📸 Demonstration
 
-### Resultado da análise
-![Resultado](screenshots/failed-login-test.png)
+### Analysis Result
+![Result](screenshots/failed-login-test.png)
 
-## 🧪 Teste realizado
-Foram geradas tentativas de login falho manualmente para simular um cenário real.
+## 🧪 Test Performed
+Failed login attempts were manually generated to simulate a real-world scenario.
 
-## 📚 Base teórica
-- Google Cybersecurity Certificate
-- IBM Cybersecurity Analyst
+## 📚 Theoretical Background
+- Google Cybersecurity Certificate  
+- IBM Cybersecurity Analyst  
 
-## 📈 Próximos passos
-- Contagem de eventos
-- Geração de relatórios
-- Automação de alertas
+## 📈 Next Steps
+- Event counting  
+- Report generation  
+- Alert automation  
